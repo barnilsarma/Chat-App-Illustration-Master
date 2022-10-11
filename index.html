@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/barnilsarma/Chat-App-Illustration-Master/blob/main/favicon-32x32.png?raw=true">
+  <link rel="stylesheet" href="https://github.com/barnilsarma/Chat-App-Illustration-Master/blob/main/style.css">
+  <link rel="stylesheet" href="https://github.com/barnilsarma/Chat-App-Illustration-Master/blob/main/screenshot.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  
+<title>Frontend Mentor | Chat App CSS Illustration Master</title>
+<script>
+  state='';
+  function radioClick(i){
+    state=i;
+    radio();
+  }
+  function radio(){
+    document.getElementById('b29').style.backgroundColor='transparent';
+    document.getElementById('b49').style.backgroundColor='transparent';
+    document.getElementById(state).style.backgroundColor='#ffffff';
+  }
+</script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { position:relative;bottom:-80px;font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @media screen and (min-width:800px){
+      .attribution{position:absolute;bottom:-500px;left:100px;}
+    }
+  </style>
+</head>
+<body>
+<main>
+  <div class="screenshot">
+    <div class="person-profile">
+      <div id="header-region"></div>
+      <div id="arrow-left"><</div>
+      <img src="https://github.com/barnilsarma/Chat-App-Illustration-Master/blob/main/avatar.jpg?raw=true">
+      <div>
+        <h3>Samuel Green</h3>
+        <h6>Available to Walk</h6>
+      </div>
+      <button id="settings-btn"><div></div><div></div><div></div></button>
+    </div>
+    <div class="text-received">
+      <p class="text">
+        That sounds great. I’d be happy with that.
+      </p>
+    </div>
+    <div class="text-received">
+      <p class="text">
+        Could you send over some pictures of your dog, please?
+      </p>
+    </div>
+    <div id="pics"><img src="https://github.com/barnilsarma/Chat-App-Illustration-Master/blob/main/dog-image-1.jpg?raw=true" class="dog" id="dog1"><img src="https://github.com/barnilsarma/Chat-App-Illustration-Master/blob/main/dog-image-2.jpg?raw=true" class="dog" id="dog2"><img src="https://github.com/barnilsarma/Chat-App-Illustration-Master/blob/main/dog-image-3.jpg?raw=true" class="dog" id="dog3"></div>
+    <div class="text-sent">
+      <p class="text">
+        Here are a few pictures. She’s a happy girl!
+      </p>
+    </div>
+    <div class="text-sent">
+      <p class="text">
+        Can you make it?
+      </p>
+    </div>
+    <div class="text-received">
+      <p class="text">
+        She looks so happy! The time we discussed works. How long shall I take her out for?
+      </p>
+    </div>
+    <div class="price-tag">
+      <p>
+        <input type="button" id="b29" onclick="radioClick('b29')">
+          <span class="duration" id="d30">30 minute walk</span>
+          <span class="price" id="p30">$29</span>
+      </p>
+    </div>
+    <div class="price-tag">
+      <p>
+        <input type="button" id="b49" onclick="radioClick('b49')">
+          <span class="duration" id="d1">1 hour walk</span>
+          <span class="price" id="p1">$49</span>
+        </p>
+      </p>
+    </div><br>
+    <div class="msg-box">
+      <input type="text" id="msg-sender" placeholder="Type a message…">
+      <button id="send-btn">></button>
+    </div> 
+    </div>
+    <br><br>
+  </div>
+</main>
+  <div>
+    <h1> Simple booking </h1>
+    <p id="description" align="center">
+      Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+      discuss arrangements and make bookings. Once the walk has been completed you can rate 
+      your walker and book again all through the chat.
+    </p>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/barnilsarma">Barnil Sarma</a>.
+  </div>
+</body>
+</html>
