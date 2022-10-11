@@ -1,0 +1,90 @@
+.screenshot{
+    background-color: hsl(270, 20%, 96%);padding:0px 20px;border-radius: 25px;
+    height:800px;width:307px;
+}
+.text-received .text{
+    background-color: hsl(273, 22%, 90%);width:200px;position: relative;left:0px;
+    border-radius: 20px;border-bottom-left-radius:10px ;padding:10px;color:hsl(276, 55%, 52%);
+}
+.text-received{
+    background-color: transparent;font-size: 16px;font-weight: 500;
+}
+.text-sent .text{
+    background-color:#ffffff;width: 200px;position:relative;left:85px;
+    border-radius:20px;border-bottom-right-radius:10px ;padding:10px;color:hsl(271, 15%, 43%);
+    box-shadow:0 10px 20px hsl(206, 6%, 79%);
+}
+.text-sent{
+    background-color: transparent;font-size:16px;font-weight: 500;
+}
+.person-profile{
+    position:relative;left:-20px;width:347px;background-image: linear-gradient(-90deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-top-left-radius:25px; border-top-right-radius:25px ;
+    color:hsl(0, 0%, 100%);display:flex;flex-direction:row;
+}
+.person-profile h3,h6{
+    position:relative;left:40px;
+}
+.person-profile h3{
+    top:10px;
+}
+.person-profile h6{
+    color:hsla(0, 0%, 100%, 0.445);top:-12px;
+}
+.person-profile img{
+    position:relative;left:20px;top:25px;height:40px;width:40px;border-radius:100px;border:3px solid #ffffff;
+}
+#settings-btn{
+    position:relative;left:130px;top:35px;display:flex;flex-direction:column;justify-content: space-around;
+    height: 22px;background-color: transparent;border: 0px solid transparent;
+}
+#settings-btn div{
+    height: 5px;width:5px;border-radius:20px;background-color: #ffffff;
+}
+#header-region{
+    position:absolute;top:0px;height: 20px;left:100px;
+    background-color: #ffffff;border-bottom-left-radius:18px ;
+    border-bottom-right-radius: 18px;width:150px;
+}
+.price-tag{
+    background-image:linear-gradient(90deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    color:#ffffff;height:50px;border-radius: 10px;font-size:16px;}
+.price-tag input{
+    position:relative;left:30px;top:15px;background-color: transparent;width: 20px;height:20px;border-radius:15px;border:2px solid  hsl(289, 100%, 72%);
+    transition-duration: 0.5s;
+}
+.duration{
+    position:relative;left:50px;font-weight: 400;
+}
+.price{
+    position:relative;left:100px;font-size: 20px;font-weight: 700;
+}
+#d30,#p30{top:12px;}
+#d1,#p1{top:12px;}
+#p1{left:120px;}
+#msg-sender{
+    background-color: #ffffff;
+}
+.msg-box{
+    position:relative;bottom:10px;background-color: #ffffff;border: 0px solid transparent;border-radius:20px;
+    height:60px;
+}
+#msg-sender{
+    background-color: transparent;border:0px solid transparent;
+    position:relative;left:20px;font-family: 'rubik',sans-serif;
+}
+#msg-sender::placeholder{color:hsl(206, 6%, 79%);font-size: 16px;}
+#send-btn{
+    width:50px;height: 50px;border: 0px solid transparent;border-radius:60px;
+    color:#ffffff;font-size:30px;position:relative;right:-70px;top:5px;
+    background-color: hsl(271, 36%, 24%);
+}
+#pics{display:flex;flex-direction:row;position: relative;right:-110px;
+width:200px;justify-content: space-around;}
+.dog{
+    height:60px;width:60px;border-radius:10px;border:0px solid transparent;
+}
+#arrow-left{
+    font-size: 30px; color:#ffffff;position:relative;top:30px;left:10px;
+}
+
